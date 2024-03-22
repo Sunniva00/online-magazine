@@ -105,6 +105,8 @@ nav a {
 
 #top-section {
     display: inline-flex;
+    margin-left:60px;
+    margin-right: 60px;
 
 }
 
@@ -113,6 +115,8 @@ nav a {
     padding-left: 100px;
     padding-right: 150px;
     padding-top: 120px;
+    margin-left:60px;
+    margin-right: 60px;
 
 
 }
@@ -133,6 +137,8 @@ nav a {
 #bottom-section {
     display: flex;
     flex-direction: column;
+    margin-left:60px;
+    margin-right: 60px;
 
 
 }

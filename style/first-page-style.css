@@ -7,6 +7,9 @@
 body {
     min-height: 100vh;
     background-color: white;
+    
+
+    }
 
     .judson-regular {
         font-family: "Judson", serif;
@@ -26,10 +29,7 @@ body {
         font-style: normal;
     }
     
-
-    }
-    
-
+/*Navigation bar*/
 
     .logo {
         font-family: Judson-bold;
@@ -77,47 +77,42 @@ body {
         align-items: center;
         display: flex;
     }
-    
 
-#top-section h1 {
+/*part 1: top section*/
+
+
+.top {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-column-gap: 50px;
+    padding-top: 100px;
+    margin-left: 400px;
+    align-items: center;
+
+
+}
+
+.top img {
+    justify-content: right;
+}
+
+
+.top-title h1 {
     color: black;
     font-size: 37px;
-    display: flex;
-    padding: 110px;
-    padding-left: 200px;
-    padding-right: 20px;
-    padding-bottom: 20px;
     font-weight: bold;
-    font-family: Judson;
-    place-items: right;
-    float: center;
+ 
 }
 
-#top-section img {
-    float: right;
-    padding: 100px;
-    padding-top: 30px;
-    padding-left: 40px;
-    margin-right: 150px;
-}
-
-
-#top-section h2 {
+.top-title h2 {
     font-family: Judson;
     font-size: 15px;
     font-weight: lighter;
-    place-items: right;
-    float: center;
     font-size: 24px;
-    padding-left: 200px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    display: flex;
-    margin-left: 220px;
 
 }
 
-/*part 2*/
+/*part 2: middle section*/
 
 .container-2 {
     display: grid;
@@ -152,7 +147,7 @@ body {
     margin-top: 50px;
 }
 
-.text-woman p,h5,h2 {
+.text-woman  h5 h2 {
     margin-top: 8px;
     
 }
@@ -163,7 +158,7 @@ body {
     margin-bottom: 50px;
 }
 
-.text-shoes p,h5,h2 {
+.text-shoes p h5 h2 {
     margin-top: 8px;
 }
 
@@ -171,7 +166,7 @@ body {
     margin-top: 180px;
 }
 
-.text-outside p,h5,h2 {
+.text-outside  h5 h2 {
     margin-top: 8px;
 }
 
@@ -254,7 +249,7 @@ body {
 
 
 
-
+/*footer*/
 
 
 
@@ -272,7 +267,7 @@ body {
     padding-bottom: 20px;
 }
 
-#top-article-bottom-section li {
+#top-article-fotter-section li {
     justify-content: left;
     list-style: none;
     font-size: 15px;
@@ -281,6 +276,6 @@ body {
 
 }
 
-#top-article-bottom-section h3 {
+#top-article-fotter-section h3 {
     padding-bottom: 8px;
 }
