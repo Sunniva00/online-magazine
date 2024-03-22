@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: white;
+
+    .judson-regular {
+        font-family: "Judson", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .judson-bold {
+        font-family: "judson", serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .inder-regular {
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+
+    }
+    
+
+
+    .logo {
+        font-family: Judson-bold;
+        font-size: 23px;
+        float: left;
+        padding: 10px 0;
+        
+    
+    }
+
+    .logo a {
+        color: black;
+        list-style: none;
+        text-decoration: none;
+    }
+    
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    nav {
+        float: right;
+    }
+    
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    nav ul li {
+        display: inline-block;
+    
+    }
+    
+    
+    nav a {
+        text-decoration: none;
+        color: black;
+        font-family: inder-regular;
+        text-transform: uppercase;
+        font-size: 15px;
+        padding: 0px 20px;
+        align-items: center;
+        display: flex;
+    }
+    
+
+#top-section h1 {
+    color: black;
+    font-size: 37px;
+    display: flex;
+    padding: 110px;
+    padding-left: 200px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-family: Judson;
+    place-items: right;
+    float: center;
+}
+
+#top-section img {
+    float: right;
+    padding: 100px;
+    padding-top: 30px;
+    padding-left: 40px;
+    margin-right: 150px;
+}
+
+
+#top-section h2 {
+    font-family: Judson;
+    font-size: 15px;
+    font-weight: lighter;
+    place-items: right;
+    float: center;
+    font-size: 24px;
+    padding-left: 200px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    margin-left: 220px;
+
+}
+
+/*part 2*/
+
+.container-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 40px;
+    margin-top: 300px;
+    margin-bottom: 50px;
+
+}
+
+.image {
+    margin-left: 90px;
+    
+}
+
+.woman {
+    margin-bottom: 50px;
+}
+
+.shoes {
+    margin-bottom: 50px;
+}
+
+/*text part 2*/
+
+.text-1 {
+    padding-bottom: 60px;
+}
+
+.text-woman {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.text-woman p,h5,h2 {
+    margin-top: 8px;
+    
+}
+
+
+.text-shoes {
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.text-shoes p,h5,h2 {
+    margin-top: 8px;
+}
+
+.text-outside {
+    margin-top: 180px;
+}
+
+.text-outside p,h5,h2 {
+    margin-top: 8px;
+}
+
+
+
+
+
+.news-section {
+    background-color: #32291D;
+    color: white;
+    margin-right: 60px;
+
+}
+
+.news-section h2 {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.VM {
+    margin-top: 20px;
+}
+
+.VM h3,p,h4 {
+    padding: 5px 50px;
+}
+
+.Bærekraft {
+    margin-top: 100px;
+}
+
+.Bærekraft h3,p,h4 {
+    padding: 5px 50px;
+}
+
+.Klatresenter {
+    margin-top: 100px;
+}
+
+.Klatresenter h3,p,h4 {
+    padding: 5px 50px;
+
+}
+
+.container-3 h1 {
+    text-align: center;
+    margin-bottom: 30px;
+
+
+}
+
+.image-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+    margin-bottom: 10px;
+    
+}
+
+.blue {
+    margin-left: 80px;
+}
+
+.brown {
+    margin-left: 20px;
+}
+
+.text-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.size-1 {
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.section-4 {
+    background-color: #32291D;
+    color: white;
+    padding-left: 160px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+
+}
+
+.belay {
+    padding-bottom: 20px;
+}
+
+#top-article-bottom-section li {
+    justify-content: left;
+    list-style: none;
+    font-size: 15px;
+    padding-right: 250px;
+    padding-bottom: 3px;
+
+}
+
+#top-article-bottom-section h3 {
+    padding-bottom: 8px;
+}

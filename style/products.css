@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    height: 100%;
+    min-height: 100vh;
+    background-color: white;
+
+    .judson-regular {
+        font-family: "Judson", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .judson-bold {
+        font-family: "judson", serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .inder-regular {
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+/*navigation*/
+
+.logo {
+    font-family: Judson-bold;
+    font-size: 23px;
+    float: left;
+    padding: 10px 0;
+    
+
+}
+
+.logo a {
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: inder-regular;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 0px 20px;
+    align-items: center;
+    display: flex;
+}
+
+#top-section {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.title {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 20px;
+
+}
+
+.allround {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 40px;
+
+}
+
+.allround-title {
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+.allround-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.allround-text h4 {
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+#bottom-section {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+    
+
+.agressive-title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+
+.agressive {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.agressive-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 50px;
+}
+
+.agressive-text h4 {
+    padding-bottom: 10px;
+}
+
+.agressive-text h3 {
+    padding-bottom: 5px;
+}
+
+.agressive-title h2 {
+    padding-bottom: 5px;
+}
+
+
+
+
+
+.section-4 {
+    background-color: #32291D;
+    color: white;
+    padding-left: 160px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+
+}
+
+.belay {
+    padding-bottom: 20px;
+}
+
+#top-article-bottom-section li {
+    justify-content: left;
+    list-style: none;
+    font-size: 15px;
+    padding-right: 250px;
+    padding-bottom: 3px;
+
+}
+
+#top-article-bottom-section h3 {
+    padding-bottom: 8px;
+}
