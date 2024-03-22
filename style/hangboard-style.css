@@ -77,6 +77,8 @@ nav a {
     display: flex;
 }
 
+/*header*/
+
 .title {
     text-align: center;
     padding-top: 60px;
@@ -89,6 +91,8 @@ nav a {
     align-items: center;
     padding-top: 20px;
 }
+
+/*top section*/
 
 #top-article-top-section p1 {
     display: block;
@@ -126,6 +130,8 @@ nav a {
 
 }
 
+/*bottom section*/
+
 #bottom-article-top-section h4 {
     display: block;
     justify-content: left;
@@ -150,6 +156,7 @@ nav a {
     padding-bottom: 20px;
 }
 
+/*footer*/
 
 .section-4 {
     background-color: #32291D;
@@ -163,7 +170,7 @@ nav a {
     padding-bottom: 20px;
 }
 
-#top-article-top-section li {
+#top-article-footer-section li {
     justify-content: left;
     list-style: none;
     font-size: 15px;
@@ -172,7 +179,7 @@ nav a {
 
 }
 
-#top-article-top-section h3 {
+#top-article-footer-section h3 {
     padding-bottom: 8px;
 }
 

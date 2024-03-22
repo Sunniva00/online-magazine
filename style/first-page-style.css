@@ -78,7 +78,7 @@ body {
         display: flex;
     }
 
-/*part 1: top section*/
+/*top section*/
 
 
 .top {
@@ -112,7 +112,7 @@ body {
 
 }
 
-/*part 2: middle section*/
+/*middle section*/
 
 .container-2 {
     display: grid;
@@ -136,7 +136,7 @@ body {
     margin-bottom: 50px;
 }
 
-/*text part 2*/
+/*text middle section*/
 
 .text-1 {
     padding-bottom: 60px;
@@ -171,7 +171,7 @@ body {
 }
 
 
-
+/*middle section: news section*/
 
 
 .news-section {
@@ -210,6 +210,8 @@ body {
     padding: 5px 50px;
 
 }
+
+/*Bottom section*/
 
 .container-3 h1 {
     text-align: center;
